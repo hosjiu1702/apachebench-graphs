@@ -1,0 +1,359 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 172.31.26.20 (be patient)...INFO: POST header == 
+---
+POST /api/nlp/v2/intent?userid=5f427f94a5c7f67b3985cc8d HTTP/1.0
+Content-length: 31
+Content-type: application/json
+authorization: YaMtrXkKMTvxB8E4L8uW77YMcxSSL4KQ
+Host: 172.31.26.20:5000
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+---
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Server: gunicorn/20.0.4
+Date: Fri, 26 Feb 2021 15:45:20 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 39
+Access-Control-Allow-Origin: *
+
+[[{"confidence":100,"value":"other"}]]
+
+LOG: Response code = 200
+..done
+
+
+Server Software:        gunicorn/20.0.4
+Server Hostname:        172.31.26.20
+Server Port:            5000
+
+Document Path:          /api/nlp/v2/intent?userid=5f427f94a5c7f67b3985cc8d
+Document Length:        39 bytes
+
+Concurrency Level:      25
+Time taken for tests:   1.075 seconds
+Complete requests:      25
+Failed requests:        0
+Total transferred:      5575 bytes
+Total body sent:        6675
+HTML transferred:       975 bytes
+Requests per second:    23.27 [#/sec] (mean)
+Time per request:       1074.511 [ms] (mean)
+Time per request:       42.980 [ms] (mean, across all concurrent requests)
+Transfer rate:          5.07 [Kbytes/sec] received
+                        6.07 kb/s sent
+                        11.13 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      0       1
+Processing:   242  684 280.4    740    1073
+Waiting:      242  684 280.4    740    1073
+Total:        243  684 280.2    740    1074
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%    733
+  66%    847
+  75%    937
+  80%    992
+  90%   1055
+  95%   1065
+  98%   1074
+  99%   1074
+ 100%   1074 (longest request)
