@@ -103,20 +103,20 @@ if [ "${NUM_REQUESTS}" == "" ]; then
 fi
 
 # Run test
-AB_COMMAND="${AB_BIN} ${KEEPALIVE} -c ${CONCURRENCY} -n ${NUM_REQUESTS} -e ${CSV_RESULTS_FILE} -g ${PLOT_FILE} ${EXTRA_ARGS} ${URL}/ "
-echo -e "\n${AB_COMMAND}\n"
+ab -c ${CONCURRENCY} -n ${NUM_REQUESTS} -v 4 -p data.txt -T application/json -H "authorization: YaMtrXkKMTvxB8E4L8uW77YMcxSSL4KQ" -e ${CSV_RESULTS_FILE} -g ${PLOT_FILE} ${EXTRA_ARGS} ${URL} > ${AB_OUTPUT_FILE}
+#echo -e "\n${AB_COMMAND}\n"
 
-out="$(${AB_COMMAND})"
+#out="$(${AB_COMMAND})"
 
-if [ $? -gt 0 ]; then
-  echo -e "There was an error running the test:\n"
-  echo -e ${out}
-  exit 1
-fi
+#if [ $? -gt 0 ]; then
+#  echo -e "There was an error running the test:\n"
+#  echo -e ${out}
+#  exit 1
+#fi
 
 # Store test summary results to summary.txt
-echo -e "${out}" > ${AB_OUTPUT_FILE}
-echo -e "\n${out}\n\n"
+#echo -e "${out}" > ${AB_OUTPUT_FILE}
+#echo -e "\n${out}\n\n"
 
 ##### Plot results
 # Render values template
@@ -129,7 +129,7 @@ IMAGE_FILE="$(basename ${PLOT_FILE})"
 rendered_values_template=$(render_template ${PLOT_TEMPLATE_FILE} "${RESULTS_PATH}/values.p")
 
 # Plot results
-GNUPLOT_COMMAND="${GNUPLOT_BIN} ${rendered_values_template}"
+GNUPLOT_COMMAND="gnuplot ${rendered_values_template}"
 echo -e "\n${GNUPLOT_COMMAND}\n"
 ${GNUPLOT_COMMAND}
 echo -e "Done."
@@ -143,7 +143,7 @@ IMAGE_FILE="$(basename ${CSV_RESULTS_FILE})"
 rendered_percentages_template=$(render_template ${CSV_TEMPLATE_FILE} "${RESULTS_PATH}/percentages.p")
 
 # Plot results
-GNUPLOT_COMMAND="${GNUPLOT_BIN} ${rendered_percentages_template}"
+GNUPLOT_COMMAND="gnuplot ${rendered_percentages_template}"
 echo -e "\n${GNUPLOT_COMMAND}\n"
 ${GNUPLOT_COMMAND}
 echo -e "Done."
